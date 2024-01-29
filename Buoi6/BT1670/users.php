@@ -1,7 +1,7 @@
 <?php
 require_once ('../db/dbhelper.php');
 require_once ('form-add.php');
-$user = valiToken();
+// $user = valiToken();
 if ($user == null) {
 	header('Location: login.php');
 	die();
